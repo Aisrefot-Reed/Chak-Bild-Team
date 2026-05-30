@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Code, Database, Server, GitBranch, TestTube } from "lucide-react"
+import { Code, Database, Server, GitBranch, Bug } from "lucide-react"
 
 export function ExpertiseCards() {
   return (
@@ -18,7 +18,7 @@ export function ExpertiseCards() {
             <CardHeader>
               <div className="mb-4 flex items-center gap-3">
                 <div className="rounded-lg bg-primary/10 p-3">
-                  <TestTube className="h-6 w-6 text-primary" />
+                  <Bug className="h-6 w-6 text-primary" />
                 </div>
                 <CardTitle className="text-2xl">QA Engineer & DevOps</CardTitle>
               </div>
@@ -29,7 +29,7 @@ export function ExpertiseCards() {
                 <h4 className="mb-3 font-semibold">Core Skills</h4>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">
-                    <TestTube className="mr-1 h-3 w-3" />
+                    <Bug className="mr-1 h-3 w-3" />
                     QA Engineering
                   </Badge>
                   <Badge variant="secondary">AI/LLM Integration</Badge>
