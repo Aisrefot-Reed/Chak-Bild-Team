@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Shield, Code, Database, Server, GitBranch, CheckCircle } from "lucide-react"
+import { Code, Database, Server, GitBranch, TestTube } from "lucide-react"
 
 export function ExpertiseCards() {
   return (
@@ -12,15 +12,15 @@ export function ExpertiseCards() {
         </div>
 
         <div className="grid gap-8 lg:grid-cols-2">
-          {/* Henry - QA Engineer & Security */}
+          {/* Henry - QA Engineer & DevOps */}
           <Card className="group relative overflow-hidden border-2 transition-all hover:border-primary hover:shadow-lg">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
             <CardHeader>
               <div className="mb-4 flex items-center gap-3">
                 <div className="rounded-lg bg-primary/10 p-3">
-                  <Shield className="h-6 w-6 text-primary" />
+                  <TestTube className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle className="text-2xl">QA Engineer & Security</CardTitle>
+                <CardTitle className="text-2xl">QA Engineer & DevOps</CardTitle>
               </div>
               <CardDescription className="text-base">Co-founder, CTO</CardDescription>
             </CardHeader>
@@ -29,16 +29,16 @@ export function ExpertiseCards() {
                 <h4 className="mb-3 font-semibold">Core Skills</h4>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">
-                    <CheckCircle className="mr-1 h-3 w-3" />
+                    <TestTube className="mr-1 h-3 w-3" />
                     QA Engineering
                   </Badge>
                   <Badge variant="secondary">AI/LLM Integration</Badge>
-                  <Badge variant="secondary">DevSecOps</Badge>
-                  <Badge variant="secondary">SAST Tools</Badge>
-                  <Badge variant="secondary">AppArmor</Badge>
-                  <Badge variant="secondary">Kubernetes Security</Badge>
-                  <Badge variant="secondary">OWASP ZAP</Badge>
-                  <Badge variant="secondary">CTF / Hack The Box</Badge>
+                  <Badge variant="secondary">CI/CD Pipelines</Badge>
+                  <Badge variant="secondary">Docker</Badge>
+                  <Badge variant="secondary">Load Testing</Badge>
+                  <Badge variant="secondary">Cloud Infrastructure</Badge>
+                  <Badge variant="secondary">Automation</Badge>
+                  <Badge variant="secondary">E2E Testing</Badge>
                 </div>
               </div>
 
@@ -51,11 +51,11 @@ export function ExpertiseCards() {
                   </li>
                   <li className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary" />
-                    <span>AI/LLM integration experience in production environments</span>
+                    <span>AI/LLM integration and prompt engineering in production</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary" />
-                    <span>DevSecOps: container security, CI/CD hardening, security scanning</span>
+                    <span>CI/CD automation, containerization, and cloud deployment</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary" />

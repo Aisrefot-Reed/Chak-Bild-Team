@@ -10,13 +10,13 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Chak Bild | DevSecOps Tools for Small Teams",
+  title: "Chak Bild | AI, DevOps and QA Tools",
   description:
-    "Chak Bild builds automated security tools for development teams. SecureCI scans every Pull Request for vulnerabilities — no Security Engineer required.",
+    "Chak Bild builds AI-powered tools, DevOps infrastructure, and QA testing solutions for modern development teams.",
   openGraph: {
-    title: "Chak Bild | DevSecOps Tools for Small Teams",
+    title: "Chak Bild | AI, DevOps and QA Tools",
     description:
-      "Automated security tools for development teams. SecureCI scans every Pull Request for vulnerabilities — no Security Engineer required.",
+      "AI-powered tools, DevOps infrastructure, and QA testing solutions for modern development teams.",
     type: "website",
   },
 }

@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Shield, Terminal, Wrench } from "lucide-react"
+import { Terminal, Wrench, Brain } from "lucide-react"
 
 export function Hero() {
   return (
@@ -10,8 +10,8 @@ export function Hero() {
       <div className="mx-auto max-w-4xl text-center">
         <div className="mb-8 flex items-center justify-center gap-2">
           <Badge variant="outline" className="border-primary/50 bg-primary/10 text-primary">
-            <Wrench className="mr-1 h-3 w-3" />
-            SecureCI — in development
+            <Brain className="mr-1 h-3 w-3" />
+            AI/LLM Projects
           </Badge>
           <Badge variant="outline" className="border-secondary/50 bg-secondary/10 text-secondary">
             <Terminal className="mr-1 h-3 w-3" />
@@ -22,11 +22,11 @@ export function Hero() {
         <h1 className="mb-6 text-balance text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">Chak Bild</h1>
 
         <p className="mb-4 text-pretty text-xl text-muted-foreground sm:text-2xl">
-          Automated security for every Pull Request
+          AI, DevOps and QA testing — from idea to production
         </p>
 
         <p className="mb-10 text-pretty text-lg text-muted-foreground">
-          Two engineers building DevSecOps tools for small teams that can&apos;t afford a Security Engineer
+          Two engineers building AI-powered tools, DevOps pipelines, and QA infrastructure for modern teams
         </p>
 
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
