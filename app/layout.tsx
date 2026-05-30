@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   title: "Chak Bild | AI, DevOps and QA Tools",
   description:
     "Chak Bild builds AI-powered tools, DevOps infrastructure, and QA testing solutions for modern development teams.",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     title: "Chak Bild | AI, DevOps and QA Tools",
     description:
