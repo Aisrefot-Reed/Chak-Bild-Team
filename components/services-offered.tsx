@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { CheckCircle2, Shield, TestTube, Bot } from "lucide-react"
+import { CheckCircle2, Shield, Bug, Bot } from "lucide-react"
 
 export function ServicesOffered() {
   const services = [
@@ -15,7 +15,7 @@ export function ServicesOffered() {
       ],
     },
     {
-      icon: TestTube,
+      icon: Bug,
       title: "QA Engineering & Testing",
       description: "Comprehensive quality assurance from load testing to end-to-end test automation.",
       features: [
