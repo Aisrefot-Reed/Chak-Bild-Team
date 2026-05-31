@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Github, Shield, Terminal, Pause } from "lucide-react"
+import { Github, Shield, Terminal, Pause, CheckCircle2 } from "lucide-react"
 
 export function ProjectShowcase() {
   return (
@@ -94,9 +94,9 @@ export function ProjectShowcase() {
 
             <CardHeader>
               <div className="mb-2 flex flex-wrap gap-2">
-                <Badge className="bg-blue-500/10 text-blue-600 border-blue-500/30">
-                  <Pause className="mr-1 h-3 w-3" />
-                  Paused
+                <Badge className="bg-green-500/10 text-green-600 border-green-500/30">
+                  <CheckCircle2 className="mr-1 h-3 w-3" />
+                  Done
                 </Badge>
                 <Badge variant="secondary">Python</Badge>
                 <Badge variant="outline">Open Source</Badge>
