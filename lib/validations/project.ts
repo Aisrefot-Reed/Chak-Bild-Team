@@ -7,7 +7,7 @@ export const projectSchema = z.object({
   slug: z.string().min(1, "Slug is required").max(200, "Slug is too long"),
   description: z.string().max(500, "Description is too long").nullable(),
   long_description: z.string().max(5000, "Long description is too long").nullable(),
-  status: z.enum(["idea", "backlog", "in_progress", "review", "done", "archived"]),
+  status: z.enum(["idea", "backlog", "in_progress", "paused", "review", "done", "archived"]),
   cover_image: z.string().url("Invalid URL").nullable(),
   screenshots: z.array(z.string().url("Invalid URL")),
   tags: z.array(z.string()),

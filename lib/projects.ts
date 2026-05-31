@@ -1,4 +1,4 @@
-export type ProjectStatus = "idea" | "backlog" | "in_progress" | "review" | "done" | "archived"
+export type ProjectStatus = "idea" | "backlog" | "in_progress" | "review" | "done" | "archived" | "paused"
 
 export interface Project {
   id: string
@@ -23,6 +23,7 @@ export const PROJECT_STATUSES: ProjectStatus[] = [
   "idea",
   "backlog",
   "in_progress",
+  "paused",
   "review",
   "done",
   "archived",
@@ -50,6 +51,11 @@ export const STATUS_META: Record<ProjectStatus, StatusMeta> = {
     label: "In Progress",
     badge: "bg-amber-500/10 text-amber-600 border-amber-500/30",
     dot: "bg-amber-500",
+  },
+  paused: {
+    label: "Paused",
+    badge: "bg-blue-500/10 text-blue-600 border-blue-500/30",
+    dot: "bg-blue-500",
   },
   review: {
     label: "Review",

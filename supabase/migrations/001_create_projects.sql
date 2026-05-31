@@ -12,7 +12,7 @@ create table if not exists public.projects (
   description text,
   long_description text,
   status text not null default 'idea'
-    check (status in ('idea', 'backlog', 'in_progress', 'review', 'done', 'archived')),
+    check (status in ('idea', 'backlog', 'in_progress', 'paused', 'review', 'done', 'archived')),
   cover_image text,
   screenshots text[] default '{}',
   tags text[] default '{}',
