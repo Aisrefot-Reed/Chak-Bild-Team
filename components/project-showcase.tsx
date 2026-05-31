@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Github, Shield, Terminal, Clock } from "lucide-react"
+import { Github, Shield, Terminal, Pause } from "lucide-react"
 
 export function ProjectShowcase() {
   return (
@@ -9,7 +9,7 @@ export function ProjectShowcase() {
       <div className="mx-auto max-w-7xl">
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight sm:text-4xl">Featured Projects</h2>
-          <p className="text-pretty text-lg text-muted-foreground">DevSecOps tools built for developers</p>
+          <p className="text-pretty text-lg text-muted-foreground">Tools and projects we build</p>
         </div>
 
         <div className="grid gap-8 lg:grid-cols-2">
@@ -27,16 +27,16 @@ export function ProjectShowcase() {
 
             <CardHeader>
               <div className="mb-2 flex flex-wrap gap-2">
-                <Badge className="bg-amber-500/10 text-amber-600 border-amber-500/30">
-                  <Clock className="mr-1 h-3 w-3" />
-                  In Development
+                <Badge className="bg-blue-500/10 text-blue-600 border-blue-500/30">
+                  <Pause className="mr-1 h-3 w-3" />
+                  Paused
                 </Badge>
-                <Badge variant="secondary">DevSecOps</Badge>
-                <Badge variant="outline">Open Source Soon</Badge>
+                <Badge variant="secondary">Security</Badge>
+                <Badge variant="outline">GitHub Action</Badge>
               </div>
               <CardTitle className="text-xl">Automated Security Scanner</CardTitle>
               <CardDescription className="text-base">
-                Automated security scanner for Pull Requests. Runs SAST analysis, dependency CVE scanning, AI-powered code review, and OWASP checklist in parallel. Posts a structured report as a PR comment within 60 seconds. Critical findings block the merge.
+                Automated security scanner for Pull Requests. Runs SAST analysis, dependency CVE scanning, AI-powered code review, and OWASP checklist in parallel. Posts a structured report as a PR comment within 60 seconds.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -77,11 +77,6 @@ export function ProjectShowcase() {
                   <Badge variant="outline">Next.js</Badge>
                 </div>
               </div>
-
-              <Button variant="outline" size="sm" disabled className="opacity-60">
-                <Clock className="mr-2 h-4 w-4" />
-                Follow for updates
-              </Button>
             </CardContent>
           </Card>
 
@@ -99,9 +94,12 @@ export function ProjectShowcase() {
 
             <CardHeader>
               <div className="mb-2 flex flex-wrap gap-2">
-                <Badge className="bg-green-500/10 text-green-600 border-green-500/30">Open Source</Badge>
-                <Badge className="bg-green-500/10 text-green-600 border-green-500/30">Live</Badge>
+                <Badge className="bg-blue-500/10 text-blue-600 border-blue-500/30">
+                  <Pause className="mr-1 h-3 w-3" />
+                  Paused
+                </Badge>
                 <Badge variant="secondary">Python</Badge>
+                <Badge variant="outline">Open Source</Badge>
               </div>
               <CardTitle className="text-xl">Load Testing Tool</CardTitle>
               <CardDescription className="text-base">
